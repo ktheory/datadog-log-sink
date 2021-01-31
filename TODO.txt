@@ -1,0 +1,6 @@
+- add http library
+- publish to heroku
+- figure out permissions
+- automatically build w/ npm
+- write tests
+
