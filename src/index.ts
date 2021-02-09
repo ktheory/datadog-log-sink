@@ -1,7 +1,6 @@
 import { Probot } from "probot";
 
 export = (app: Probot) => {
-  app.log.warn("HALP")
   app.webhooks.onAny(async (context) => {
     console.log(JSON.stringify(context))
   });
